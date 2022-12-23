@@ -6,7 +6,7 @@
 ### Adding a new user
 ```
 u= [username]
-ui= [user ID]  # need to choose an available ID
+ui= [user ID]  # need to choose an available ID - check the ids and add one to that last existing ID
 sudo addgroup --gid $ui $u
 sudo adduser --uid $ui --gid $ui $u
 ```
